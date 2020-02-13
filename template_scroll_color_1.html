@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="Cache-Control" content="no-cache">
+        <link rel="icon" type="image/png" href="images/logo.png">
+
+        <script src="js/jquery.min.js"></script>
+        <script src="js/jquery.cookie.js"></script>
+
+        <link href="css/bootstrap/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+        <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
+
+        <link href="css/style.css" rel="stylesheet" type="text/css"/>
+        <script src="js/common.js"></script>
+
+        <script>
+            $(function () {
+                $("#logo").load("logo.inc");
+                $("#menu").load("menu.inc");
+                $("#footer2").load("footer.inc");
+            });
+        </script>
+
+    </head>
+
+    <body>
+        <div id="loader" class="loader"></div>
+        <div id="logo"></div>
+        <div id="menu"></div>
+
+        <div id="content">
+
+            <div class="wrapper background">
+
+                <!--div class="block40"></div-->
+                <div class="container-fluid">
+                    <div class="row row-text">
+
+                        <div class="col-sm-12 col-md-6 column-text">
+                            <div class="panel-text">
+                                <h2></h2>
+                                <h3></h3>
+                                <div></div>
+                            </div>
+                        </div>
+
+                        <div class="col-xs-12 col-md-6">
+                            <div class="poster-container">
+                                <div class="poster" style="min-height: 650px; height: auto; background-size: auto;"></div>
+                            </div>
+
+                            <div class="colorshow">
+                                <!--img src="images/obvodka.png"-->
+                            </div>
+                            <br/>
+                            <div class="colornav"></div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+
+
+            <div class="block80 background"></div>
+
+            <div id="footer2"></div>
+
+            <button onclick="topFunction()" id="btn-scroll-top" title="Go to top">➤</button>
+        </div>
+
+        <script src="js/bootstrap/popper.min.js"></script>
+        <script src="js/bootstrap/bootstrap.min.js"></script>
+
+        <script src="js/template_scroll_color_1.js" defer></script>
+        <script src="js/site.js" defer></script>
+
+    </body>
+
+</html>

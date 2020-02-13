@@ -1,0 +1,34 @@
+{
+    "title": {
+        "title": "Краски МА"
+    },
+    "poster": {
+        "img": "images/ma.jpg"
+    },
+    "article": {
+        "title": "Краски масляные",
+        "head": "МА-15",
+        "text": ["Краски масляные МА-15 готовы к применению. Применяются для наружных и внутренних работ."
+                 ]
+    },
+    "section": [
+        {
+            "img": "images/product/tara/original/ma-15-9.png",
+            "head": "МА-15",
+            "desc": "Краска масляная",
+            "href": "template_scroll_color_2.html?name=farba-olijna-ma-15"
+        },
+        {
+            "img": "images/product/tara/original/ma-15-Surik-9.png",
+            "head": "МА-15<br/>сурик железный",
+            "desc": "Сурик железный",
+            "href": "template_scroll_color_2.html?name=farba-olijna-ma-15-surik-zaliznij"
+        },
+        {
+            "img": "images/product/tara/original/ma-15-Dlya-Dahu-9.png",
+            "head": "МА-15<br/>для крыш",
+            "desc": "Эмаль алкидная для крыш",
+            "href": "template_scroll_color_2.html?name=farba-ma-15-dlya-dahu"
+        }
+    ]
+}

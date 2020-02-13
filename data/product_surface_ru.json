@@ -1,0 +1,55 @@
+{
+    "title": {
+        "title": "Завод лакокрасочной продукции «СПЕКТР»"
+    },
+    "poster": {
+        "img": ""
+    },
+    "article": {
+        "title": "Лакокрасочный завод",
+        "head": "«СПЕКТР»",
+        "text": [
+            "ОДО «ДЛКЗ «Спектр» производит широкий ассортимент высококачественной лакокрасочной органорастворимой и вододисперсионной продукции."
+           ,"Нашу продукцию можно использовать для нанесения на металлические, деревянные, бетонные и другие поверхности."
+           ,"Среди нашего широкого ассортимента высококачественных материалов Вы найдете оптимальное решение для окраски фасадов и интерьеров."
+        ]
+    },
+    "section1": [
+        {
+            "img": "images/product/naznach/metal.jpg",
+            "head": "Краски для металлических поверхностей",
+            "desc": "Краткое описание",
+            "href": "template2.html?name=paint_metal"
+        }
+       ,{
+            "img": "images/product/naznach/derevo.jpg",
+            "head": "Краски для деревянных поверхностей",
+            "desc": "Краткое описание",
+            "href": "template2.html?name=paint_derevo"
+        }
+       ,{
+            "img": "images/product/naznach/interior.jpg",
+            "head": "Краски для интерьера",
+            "desc": "Краткое описание",
+            "href": "template2.html?name=paint_interior"
+        }
+       ,{
+            "img": "images/product/naznach/exterior.jpg",
+            "head": "Краски для фасадов",
+            "desc": "Краткое описание",
+            "href": "template2.html?name=paint_exterior"
+        }
+       ,{
+            "img": "images/product/naznach/specnazn.jpg",
+            "head": "Краски для спецназначения",
+            "desc": "Краткое описание",
+            "href": "template1.html?name=paint_specnazn"
+        }
+       ,{
+            "img": "images/product/naznach/inshe.png",
+            "head": "Продукция различного назначения",
+            "desc": "Краткое описание",
+            "href": "template1.html?name=paint_inshe"
+        }
+    ]
+}

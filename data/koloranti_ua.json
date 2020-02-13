@@ -1,0 +1,84 @@
+{
+    "title": {
+        "title": "Колоранти"
+    },
+    "poster": {
+        "img": "images/Colors.jpg"
+    },
+    "article": {
+        "title": "КОЛОРАНТИ",
+        "head": "Colormix",
+        "text": [
+            "Універсальні колеровочні пасти \"Colormix\" призначені для колорування олійних, алкідних та водоемульсійних фарб.",
+            "Застосовується під час ремонту квартир, офісів, котеджів, фасадів будівель та дачних будинків."
+        ]
+    },
+    "section1": [
+        {
+            "img1": "images/16-1.jpg",
+            "img2": "images/16-2.jpg"
+        },
+        {
+            "img1": "images/17-1.jpg",
+            "img2": "images/17.jpg"
+        },
+        {
+            "img1": "images/22-1.jpg",
+            "img2": "images/22.jpg"
+        },
+        {
+            "img1": "images/25-1.jpg",
+            "img2": "images/25.jpg"
+        },
+        {
+            "img1": "images/26-1.jpg",
+            "img2": "images/26.jpg"
+        },
+        {
+            "img1": "images/40-1.jpg",
+            "img2": "images/40.jpg"
+        }
+    ],
+    "section2": [
+        {
+            "img1": "images/43-1.jpg",
+            "img2": "images/43.jpg"
+        },
+        {
+            "img1": "images/45-1.jpg",
+            "img2": "images/45.jpg"
+        },
+        {
+            "img1": "images/50-1.jpg",
+            "img2": "images/50.jpg"
+        },
+        {
+            "img1": "images/52-1.jpg",
+            "img2": "images/52.jpg"
+        },
+        {
+            "img1": "images/60-1.jpg",
+            "img2": "images/60.jpg"
+        },
+        {
+            "img1": "images/61-1.jpg",
+            "img2": "images/61.jpg"
+        },
+        {
+            "img1": "images/72-1.jpg",
+            "img2": "images/72.jpg"
+        },
+        {
+            "img1": "images/74-1.jpg",
+            "img2": "images/74.jpg"
+        },
+        {
+            "img1": "images/75-1.jpg",
+            "img2": "images/75.jpg"
+        },
+        {
+            "img1": "images/90-1.jpg",
+            "img2": "images/90.jpg"
+        }
+    ]
+}

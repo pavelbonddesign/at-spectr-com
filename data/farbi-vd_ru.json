@@ -1,0 +1,46 @@
+{
+    "title": {
+        "title": "Краски ВД"
+    },
+    "poster": {
+        "img": "images/vd.jpg"
+    },
+    "article": {
+        "title": "КРАСКИ ВД",
+        "head": "Фасадные и интерьерные",
+        "text": ["Водно-дисперсионные краски применяются для окраски бетонных плит, оштукатуренных и шпаклеванную поверхностей во всех типах зданий, потолков и стен в помещениях всех типов. Создают долговечное, прочное, паропроницаемая покрытия с высокими адгезионными свойствами. Не содержат органических растворителей. Без неприятного запаха. Не выделяют вредных веществ. Устойчивы к истиранию. Выдерживают влажную уборку. Содержат компоненты, предотвращающие появление плесени и грибка."
+                ]
+    },
+    "section": [
+        {
+            "img": "images/product/tara/original/wd-С22-LuxLine.png",
+            "head": "С-22 LuxLine",
+            "desc": "Краска интерьерная",
+            "href": "template_scroll_color_2.html?name=farba-vd-luxline-c-22"
+        },
+        {
+            "img": "images/product/tara/original/wd-С20-ProfiLine.png",
+            "head": "С-20 ProfiLine",
+            "desc": "Краска интерьерная",
+            "href": "template_scroll_color_2.html?name=farba-vd-profiline-c-20"
+        },
+        {
+            "img": "images/product/tara/original/wd-С21-ProfiLine.png",
+            "head": "С-21 ProfiLine",
+            "desc": "Краска интерьерная",
+            "href": "template_scroll_color_2.html?name=farba-vd-profiline-c-21"
+        },
+        {
+            "img": "images/product/tara/original/wd-С24-Luxline.png",
+            "head": "С-24 Luxline",
+            "desc": "Краска фасадная",
+            "href": "template_scroll_color_2.html?name=farba-vd-luxline-c-24"
+        },
+        {
+            "img": "images/product/tara/original/wd-С23-Profiline.png",
+            "head": "С-23 ProfiLine",
+            "desc": "Краска фасадная",
+            "href": "template_scroll_color_2.html?name=farba-vd-profiline-c-23"
+        }
+    ]
+}

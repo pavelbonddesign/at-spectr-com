@@ -1,0 +1,34 @@
+{
+    "title": {
+        "title": "Фарби МА"
+    },
+    "poster": {
+        "img": "images/ma.jpg"
+    },
+    "article": {
+        "title": "ФАРБИ ОЛІЙНІ",
+        "head": "МА-15",
+        "text": ["Фарби олійні МА-15 готові до застосування. Застосовуються для зовнішніх і внутрішніх оброблювальних робіт.",
+                 "Термін зберігання: 12 місяця"]
+    },
+    "section1": [
+        {
+            "img": "images/emali/ma-15-9.png",
+            "head": "МА-15",
+            "desc": "Фарба олійна",
+            "href": "template_scroll_color_1.html?name=farba-olijna-ma-15"
+        },
+        {
+            "img": "images/emali/ma-15-Surik-9.png",
+            "head": "МА-15",
+            "desc": "Сурік залізний",
+            "href": "template_scroll_color_1.html?name=farba-olijna-ma-15-surik-zaliznij"
+        },
+        {
+            "img": "images/emali/emal-MA-15-Dlya-Dahu-9.png",
+            "head": "ПФ-266С Стандарт",
+            "desc": "Емаль алкідна для підлоги",
+            "href": "template_scroll_color_1.html?name=emal-ma-15-dlya-dahu"
+        }
+    ]
+}

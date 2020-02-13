@@ -1,0 +1,22 @@
+{
+    "title": {
+        "title": "Фарби для спеціальних призначень"
+    },
+    "poster": {
+        "img": ""
+    },
+    "article": {
+        "title": "Фарби для спеціальних призначень",
+        "head": "",
+        "text": ["Для спеціальних робіт  рекомендуємо використовувати високоякісні матеріали"
+        ]
+    },
+    "section": [
+        {
+            "img": "images/product/tara/640x480/dorozh_razmetka.png",
+            "head": "Фарба для дорожньої розмітки",
+            "desc": "",
+            "href": "template_scroll_color_2.html?name=farba-dorozh-razmetka"
+        }
+    ]
+}

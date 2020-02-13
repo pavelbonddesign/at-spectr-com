@@ -1,0 +1,55 @@
+{
+    "title": {
+        "title": "Завод лакофарбової продукції «СПЕКТР»"
+    },
+    "poster": {
+        "img": ""
+    },
+    "article": {
+        "title": "Лакофарбовий завод",
+        "head": "«СПЕКТР»",
+        "text": [
+            "ТДВ «ДЛФЗ «Спектр»</b> виробляє широкий асортимент  високоякісної лакофарбової органорозчинної та вододісперсійної продукції."
+           ,"Нашу продукцію можливо використовувати для  нанесення на  металеві, дерев´яні, бетонні та інші поверхні."
+           ,"Серед нашого широкого асортименту високоякісних матеріалів Ви знайдете оптимальне  рішення для фарбування фасадів та інтер´єрів."
+        ]
+    },
+    "section1": [
+        {
+            "img": "images/product/naznach/metal.jpg",
+            "head": "Фарби для металевих поверхонь",
+            "desc": "Корткий опис",
+            "href": "template2.html?name=paint_metal"
+        }
+       ,{
+            "img": "images/product/naznach/derevo.jpg",
+            "head": "Фарби для дерев'яних поверхонь",
+            "desc": "Корткий опис",
+            "href": "template2.html?name=paint_derevo"
+        }
+       ,{
+            "img": "images/product/naznach/interior.jpg",
+            "head": "Фарби для інтер'єру",
+            "desc": "Корткий опис",
+            "href": "template2.html?name=paint_interior"
+        }
+       ,{
+            "img": "images/product/naznach/exterior.jpg",
+            "head": "Фарби для фасадів",
+            "desc": "Корткий опис",
+            "href": "template2.html?name=paint_exterior"
+        }
+       ,{
+            "img": "images/product/naznach/specnazn.jpg",
+            "head": "Фарби для спецпризначення",
+            "desc": "Корткий опис",
+            "href": "template1.html?name=paint_specnazn"
+        }
+       ,{
+            "img": "images/product/naznach/inshe.png",
+            "head": "Продукція різного призначення",
+            "desc": "Корткий опис",
+            "href": "template1.html?name=paint_inshe"
+        }
+    ]
+}

@@ -1,0 +1,46 @@
+{
+    "title": {
+        "title": "Емалі"
+    },
+    "poster": {
+        "img": "images/product/tara/original.jpg"
+    },
+    "article": {
+        "title": "АЛКІДНІ ТА ПЕНТАФТАЛЕВІ",
+        "head": "Емалі",
+        "text": ["Алкідні та пентафталеві емалі застосовуються для фарбування зовнішніх поверхонь з металу (вагонів, металоконструкцій, огорож, госп. інвентарю, міні-техніки тощо), з дерева та інших матеріалів, що піддаються атмосферним впливам, а також експлуатуються всередині приміщень."
+                 ]
+    },
+    "section": [
+        {
+            "img": "images/product/tara/original/emal-Antikor-Premium-10k.png",
+            "head": "Емаль антикорозійна 3 в 1 Преміум",
+            "desc": "Емаль антикорозійна 3 в 1 Преміум",
+            "href": "template_scroll_color_2.html?name=emal-antikor-premium"
+        },
+        {
+            "img": "images/product/tara/original/emal-PF-115-Lux-10k.png",
+            "head": "ПФ-115C Люкс",
+            "desc": "Емаль алкідна",
+            "href": "template_scroll_color_2.html?name=emal-pf-115s-lux"
+        },
+        {
+            "img": "images/product/tara/original/emal-Standart-Petrikivka-10.png",
+            "head": "ПФ-115C Стандарт",
+            "desc": "Емаль алкідна",
+            "href": "template_scroll_color_2.html?name=emal-pf-115s-standart"
+        },
+        {
+            "img": "images/product/tara/original/emal-Petrikivka-10.png",
+            "head": "ПФ-115C",
+            "desc": "Емаль пентафталева",
+            "href": "template_scroll_color_2.html?name=emal-pf-115s"
+        },
+        {
+            "img": "images/product/tara/original/emal-Standart-Pol-10.png",
+            "head": "ПФ-266С Стандарт",
+            "desc": "Емаль алкідна для підлоги",
+            "href": "template_scroll_color_2.html?name=emal-pf-266s"
+        }
+    ]
+}

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>Партнери</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="Cache-Control" content="no-cache">
+        <link rel="icon" type="image/png" href="images/logo.png">
+
+        <script src="js/jquery.min.js"></script>
+        <script src="js/jquery.cookie.js"></script>
+        <script src="js/jquery.flexisel.js"></script>
+        
+        <link href="css/bootstrap/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+        <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
+
+        <link href="css/style.css" rel="stylesheet" type="text/css"/>
+        
+        <script>
+            $(document).ready(function () {
+                if ($.cookie('lang')==="ru") {
+                    $("#logo").load("logo_ru.inc");
+                    $("#footer").load("footer_ru.inc");
+                    document.title = "Завод лакокрасочной продукции «СПЕКТР»";
+                } else {
+                    $("#logo").load("logo_ua.inc");
+                    $("#footer").load("footer_ua.inc");
+                    document.title = "Завод лакофарбової продукції «СПЕКТР»";
+                }
+                $("#menu").load("menu.inc");
+            });
+        </script>
+        
+        
+        <style>
+            .collegi {
+                display: flex;
+                flex-wrap: wrap;
+                flex-direction: row;
+                align-items: center;
+                justify-content: center;
+            }
+            .collegi figure {
+                width: 10%;
+                height: auto;
+                margin: 2%;
+            }
+            .collegi figure img {
+                width: 100%;
+                height: auto;
+            }
+        </style>
+
+    </head>
+
+    <body>
+        <div id="loader" class="loader"></div>
+        <div id="logo"></div>
+        <div id="menu"></div>
+
+        <div id="content">
+            <div class="collegi poster-menu"></div>
+        </div>
+
+        <div class="block80 background"></div>
+
+        <div id="footer"></div>
+
+        <script src="js/bootstrap/popper.min.js"></script>
+        <script src="js/bootstrap/bootstrap.min.js"></script>
+        <script>
+            [{img: "epicentr.png", link: "https://epicentrk.ua/"}
+            ,{img: "vena.jpg", link: "http://vena.com.ua/"}
+            ,{img: "golosievo.png", link: "https://goloseevo.ibud.ua/ua"}
+            ,{img: "ukrfarba.jpg", link: "http://ukrfarba.com.ua/"}
+            ,{img: "mayak.jpg", link: "http://mayak-rivne.com/"}
+            ,{img: "rubin.png", link: ""}
+            ,{img: "domino.jpg", link: "http://domino.cv.ua/"}
+            ,{img: "matrapack.jpg", link: "http://matrapac.com"}
+            ,{img: "oldi.png", link: "http://www.oldi.kiev.ua/"}
+            ,{img: "rudi.png", link: "http://rudibud.com.ua"}
+            ,{img: "altoris.png", link: "https://altoris.com.ua/"}
+            ,{img: "Vital_Plast_Center.png", link: "https://www.vitalplast.com/"}
+            ,{img: "Agrinol.jpg", link: "http://agrinol.ua/"}
+            ].forEach(function (item, i, arr) {
+                let s = '<figure>'
+                    + '<a href="' + item.link + '" target="_blank">'
+                    + '<img src="images/' + item.img + '" alt=""/></a>'
+                    + '</figure>';
+                $(".collegi").append(s);
+            });            
+        </script>
+        
+        <script src="js/site.js" defer></script>
+
+    </body>
+
+</html>

@@ -1,0 +1,24 @@
+{
+    "item": [
+        {"name": "grunt-vd-fungicidnij-s-11", "img": "images/product/tara/original/Grunt_c11.png"}
+       ,{"name": "emal-antikor-premium", "img": "images/product/tara/original/emal-Antikor-Premium-10k.png"}
+       ,{"name": "farba-ma-15-dlya-dahu", "img": "images/product/tara/original/ma-15-Dlya-Dahu-9.png"}
+       ,{"name": "emal-pf-115s-lux", "img": "images/product/tara/original/emal-PF-115-Lux-10k.png"}
+       ,{"name": "emal-pf-115s", "img": "images/product/tara/original/emal-Petrikivka-10.png"}
+       ,{"name": "emal-pf-115s-standart", "img": "images/product/tara/original/emal-Standart-Petrikivka-10.png"}
+       ,{"name": "emal-pf-266s", "img": "images/product/tara/original/emal-Standart-Pol-10.png"}
+       ,{"name": "grunt-gf-021C-econom", "img": "images/product/tara/original/grunt-gf-021C-econom.png"}
+       ,{"name": "grunt-gf-021C", "img": "images/product/tara/original/grunt-gf-021C.png"}
+       ,{"name": "grunt-vd-concentrat-s-10", "img": "images/product/tara/original/grunt-wd-1-k-4.png"}
+       ,{"name": "grunt-vd-profiline-s-10", "img": "images/product/tara/original/grunt-wd-Profiline_primer.png"}
+       ,{"name": "farba-olijna-ma-15", "img": "images/product/tara/original/grunt-wd-c10-5l.png"}
+       ,{"name": "grunt-vd-fungicidnij-s-11", "img": "images/product/tara/original/grunt-wd-c11.png"}
+       ,{"name": "farba-olijna-ma-15", "img": "images/product/tara/original/ma-15-9.png"}
+       ,{"name": "farba-olijna-ma-15-surik-zaliznij", "img": "images/product/tara/original/ma-15-Surik-9.png"}
+       ,{"name": "farba-vd-profiline-c-20", "img": "images/product/tara/original/wd-С20-ProfiLine.png"}
+       ,{"name": "farba-vd-profiline-c-21", "img": "images/product/tara/original/wd-С21-ProfiLine.png"}
+       ,{"name": "farba-vd-luxline-c-22", "img": "images/product/tara/original/wd-С22-LuxLine.png"}
+       ,{"name": "farba-vd-profiline-c-23", "img": "images/product/tara/original/wd-С23-Profiline.png"}
+       ,{"name": "farba-vd-luxline-c-24", "img": "images/product/tara/original/wd-С24-Luxline.png"}
+    ]
+}

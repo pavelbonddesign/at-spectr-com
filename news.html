@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Новини</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=dunsetevice-width, initial-scale=1.0">
+    <meta http-equiv="Cache-Control" content="no-cache">
+    <link rel="icon" type="image/png" href="images/logo.png">
+
+    <link href="css/bootstrap/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery.cookie.js"></script>
+    <script src="js/common.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            if ($.cookie('lang') === "ru") {
+                $("#logo").load("logo_ru.inc", function () {
+                    calc_poster();
+                });
+                $("#footer").load("footer_ru.inc", function () {
+                    calc_poster();
+                });
+                document.title = "Завод лакокрасочной продукции «СПЕКТР»";
+            } else {
+                $("#logo").load("logo_ua.inc", function () {
+                    calc_poster();
+                });
+                $("#footer").load("footer_ua.inc", function () {
+                    calc_poster();
+                });
+                document.title = "Завод лакофарбової продукції «СПЕКТР»";
+            }
+            $("#menu").load("menu.inc", function () {
+                calc_poster();
+            });
+        });
+    </script>
+
+    <style>
+        .news-item {
+            margin-bottom: 40px;
+        }
+        .news-item hr {
+            border-width: 2px;
+        }
+        .news-item img {
+            width: 100%;
+            height: auto;
+        }
+        .next-news {
+            display: flex;
+            justify-content: center;
+            height: 40px;
+        }
+        .next-news img {
+            height: 32px;
+            width: 32px;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div id="loader" class="loader"></div>
+    <div id="logo"></div>
+    <div id="menu"></div>
+
+    <div id="content">
+
+        <div class="single-panel-text"></div>
+
+        <div class="next-news">
+            <a href="#0" data-offset="0">Далі ...</a>
+            <img src="images/preload/loading7.gif" alt=""/>
+        </div>
+
+    </div>
+
+    <div id="footer"></div>
+
+    <script src="js/bootstrap/popper.min.js"></script>
+    <script src="js/bootstrap/bootstrap.min.js"></script>
+
+    <script>
+        function load_news() {
+            $(".next-news a").css("display", "none");
+            $(".next-news img").css("display", "block");
+            $.post({
+                url: "cgi-bin/news.py",
+                dataType: "json",
+                data: JSON.stringify({"offset": $(".next-news a").data("offset")}),
+                success: function (data) {
+                    if (data.error.code === 0) {
+                        data.news.forEach(function (item, i, arr) {
+                                let s = '<div class="news-item">' +
+                                    '<h3>' + item.dt_news + '</h3>' +
+                                    '<div class="container-fluid" style="padding: 0;">' +
+                                    '<div class="row">' +
+                                    '<div class="col-12 col-sm-6 col-md-5 col-lg-3">' +
+                                    '<img src="' + item.img + '" alt="">' +
+                                    '</div>' +
+                                    '<div class="col-12 col-sm-6 col-md-7 col-lg-9">' +
+                                    '<p>' + ($.cookie('lang')==="ru" ? item.short_text_ru : item.short_text_ua) + '</p>' +
+                                    '</div>' +
+                                    '</div>' +
+                                    '</div>' +
+                                    '<hr/>' +
+                                    '</div>';
+                                $(".single-panel-text").append(s);
+                        });
+                        $(".next-news a").data("offset", $(".next-news a").data("offset")+3);
+                    } else {
+                        alert(data.error.message);
+                    }
+                }
+            }).fail(function (error) {
+                alert("error");
+                console.log(error);
+            }).done(function () {
+                $(".next-news a").css("display", "block");
+                $(".next-news img").css("display", "none");
+                $("#footer").css("position", "unset");
+            });
+        };
+
+        $(document).ready(function() {
+            $(".next-news a").html($.cookie('lang')==="ru" ? "Загрузить еще ..." : "Завантажити ще ...");
+            $(".next-news a").click(function() {load_news();})
+            load_news();
+        })
+    </script>
+
+<script src="js/site.js" defer></script>
+
+</body>
+
+</html>

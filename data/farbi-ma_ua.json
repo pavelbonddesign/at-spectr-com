@@ -1,0 +1,34 @@
+{
+    "title": {
+        "title": "Фарби МА"
+    },
+    "poster": {
+        "img": "images/ma.jpg"
+    },
+    "article": {
+        "title": "ФАРБИ ОЛІЙНІ",
+        "head": "МА-15",
+        "text": ["Фарби олійні МА-15 готові до застосування. Застосовуються для зовнішніх і внутрішніх оброблювальних робіт."
+                 ]
+    },
+    "section": [
+        {
+            "img": "images/product/tara/original/ma-15-9.png",
+            "head": "МА-15",
+            "desc": "Фарба олійна",
+            "href": "template_scroll_color_2.html?name=farba-olijna-ma-15"
+        },
+        {
+            "img": "images/product/tara/original/ma-15-Surik-9.png",
+            "head": "МА-15<br/>сурік залізний",
+            "desc": "сурік залізний",
+            "href": "template_scroll_color_2.html?name=farba-olijna-ma-15-surik-zaliznij"
+        },
+        {
+            "img": "images/product/tara/original/ma-15-Dlya-Dahu-9.png",
+            "head": "МА-15<br/>для дахів",
+            "desc": "Емаль алкідна для дахів",
+            "href": "template_scroll_color_2.html?name=farba-ma-15-dlya-dahu"
+        }
+    ]
+}

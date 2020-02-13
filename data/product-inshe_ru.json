@@ -1,0 +1,27 @@
+{
+    "title": {
+        "title": "Общая продукция"
+    },
+    "poster": {
+        "img": ""
+    },
+    "article": {
+        "title": "Общая продукция",
+        "head": "",
+        "text": [
+            "Высококачественная продукция различного назначения, которая удовлетворит любые потребности."
+        ]
+    },
+    "product": [
+        {
+            "section": [
+                {
+                    "img": "images/product/tara/640x480/skloomivach-leto.png",
+                    "head": "Стеклоомыватель летний",
+                    "desc": "",
+                    "href": "template_scroll_color_2.html?name=skloomivach-leto"
+                }
+            ]
+        }
+    ]
+}

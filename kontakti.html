@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>Контакти</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="Cache-Control" content="no-cache">
+        <link rel="icon" type="image/png" href="images/logo.png">
+
+        <script src="js/jquery.min.js"></script>
+        <script src="js/jquery.cookie.js"></script>
+
+        <link href="css/bootstrap/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+        <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
+
+        <link href="css/style.css" rel="stylesheet" type="text/css"/>
+
+        <script>
+            $(document).ready(function () {
+                if ($.cookie('lang')==="ru") {
+                    $("#logo").load("logo_ru.inc");
+                    $("#footer").load("footer_ru.inc");
+                    document.title = "Завод лакокрасочной продукции «СПЕКТР»";
+                } else {
+                    $("#logo").load("logo_ua.inc");
+                    $("#footer").load("footer_ua.inc");
+                    document.title = "Завод лакофарбової продукції «СПЕКТР»";
+                }
+                $("#menu").load("menu.inc");
+            });
+        </script>
+
+        <style>
+            .ruk-panel-title {
+                text-align: center;
+                font-size: 22px;
+            }
+            .ruk-panel-title::after {
+                content: "";
+                display: block;
+                position: absolute;
+                left: 50%;
+                width: 60px;
+                margin-top: 9.5px;
+                margin-left: -30px;
+                border-top: 1px solid #1a1a1a;
+            }
+            .ruk-fio {
+                margin-top: 25px;
+                text-align: center;
+                font-size: 18px;
+            }
+        </style>
+        
+    </head>
+
+    <body>
+        <div id="loader" class="loader"></div>
+        <div id="logo"></div>
+        <div id="menu"></div>
+
+        <div class="poster-menu poster-menu-img">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2642.2552783364195!2d34.572210715254734!3d48.528339331843455!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40dbda5f5b3692a7%3A0x7358d418f2f1a0c6!2z0LLRg9C70LjRhtGPINCi0YDQuNGC0YPQt9C90LAsIDY5LCDQmtCw0LzigJnRj9C90YHRjNC60LUsINCU0L3RltC_0YDQvtC_0LXRgtGA0L7QstGB0YzQutCwINC-0LHQu9Cw0YHRgtGM!5e0!3m2!1sru!2sua!4v1510663374353"
+                    width="100%"
+                    height="100%"
+                    frameborder="0">
+            </iframe>
+        </div>
+
+
+        <div id="footer"></div>
+
+        <script src="js/bootstrap/popper.min.js"></script>
+        <script src="js/bootstrap/bootstrap.min.js"></script>
+        <script src="js/site.js" defer></script>
+
+    </body>
+
+</html>

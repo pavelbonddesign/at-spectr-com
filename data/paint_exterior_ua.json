@@ -1,0 +1,81 @@
+{
+    "title": {
+        "title": "Фасадні фарби"
+    },
+    "poster": {
+        "img": ""
+    },
+    "article": {
+        "title": "Фасадні фарби",
+        "head": "Фасад",
+        "text": ["Для фасадних робіт рекомендуємо використовувати високоякісні матеріали:"
+                ,"вододісперсійні грунтівки (різних торгівельних марок);"
+                ,"фасадні фарби( різних торгівельних марок);"
+                ,"мармурові штукатурки( різних кольорів);"
+                ,"алкідні емалі  ПФ-115 та ПФ-115С( різних кольорів);"
+                ,"фарби масляні МА-15( різних кольорів)."
+        ]
+    },
+    "product": [
+        {
+            "section": [
+                {
+                    "img": "images/product/tara/640x480/wd-С24-Luxline.png",
+                    "head": "С-24 Luxline",
+                    "desc": "Фарба фасадна",
+                    "href": "template_scroll_color_2.html?name=farba-vd-luxline-c-24"
+                },
+                {
+                    "img": "images/product/tara/640x480/wd-С23-Profiline.png",
+                    "head": "С-23 ProfiLine",
+                    "desc": "Фарба фасадна",
+                    "href": "template_scroll_color_2.html?name=farba-vd-profiline-c-23"
+                },
+                {
+                    "img": "images/product/tara/640x480/grunt-wd-kvarc.png",
+                    "head": "Грунтовка адгезійна кварцова",
+                    "desc": "Грунтовка адгезійна кварцова",
+                    "href": "template_scroll_color_2.html?name=grunt-vd-kvarc"
+                }
+            ]
+        },
+        {
+            "section": [
+                {
+                    "img": "images/product/tara/640x480/wd-Derevo.png",
+                    "head": "Бактерицидна фарба для захисту дерев та кущів",
+                    "desc": "",
+                    "href": "template_scroll_color_2.html?name=wd-Deferevo"
+                },
+                {
+                    "img": "images/product/tara/640x480/grunt-wd-c11.png",
+                    "head": "Ґрунт фунгіцидний<br>для фасадів і інтер’єрів С-11",
+                    "desc": "Ґрунт фунгіцидний",
+                    "href": "template_scroll_color_2.html?name=grunt-vd-fungicidnij-s-11"
+                },
+                {
+                    "img": "images/product/tara/640x480/grunt-wd-c10-5l.png",
+                    "head": "Ґрунтовка глибокого проникнення С-10",
+                    "desc": "Ґрунтовка глибокого проникнення",
+                    "href": "template_scroll_color_2.html?name=grunt-vd-universalnyj-s-10"
+                }
+            ]
+        },
+        {
+            "section": [
+                {
+                    "img": "images/product/tara/640x480/grunt-wd-Profiline_primer.png",
+                    "head": "Ґрунтовка глибокого проникнення<br/>С-10 ProfiLine",
+                    "desc": "Ґрунтовка глибокого проникнення",
+                    "href": "template_scroll_color_2.html?name=grunt-vd-profiline-s-10"
+                },
+                {
+                    "img": "images/product/tara/640x480/grunt-wd-1-k-4.png",
+                    "head": "Ґрунтовка глибокого проникнення<br/>С-10 концентрат 1:4",
+                    "desc": "Ґрунтовка глибокого проникнення",
+                    "href": "template_scroll_color_2.html?name=grunt-vd-concentrat-s-10"
+                }
+            ]
+        }
+    ]
+}

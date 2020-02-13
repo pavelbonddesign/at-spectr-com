@@ -1,0 +1,132 @@
+{
+    "title": {
+        "title": "Органічна продукція"
+    },
+    "poster": {
+        "img": ""
+    },
+    "article": {
+        "title": "Органічна продукція",
+        "head": "",
+        "text": ["Фарби олійні МА-15 готові до застосування. Застосовуються для зовнішніх і внутрішніх оброблювальних робіт.",
+            "Алкідні та пентафталеві емалі застосовуються для фарбування зовнішніх поверхонь з металу (вагонів, металоконструкцій, огорож, госп. інвентарю, міні-техніки тощо), з дерева та інших матеріалів, що піддаються атмосферним впливам, а також експлуатуються всередині приміщень.",
+            "Грунти ГФ призначені для ґрунтування металевих і дерев'яних поверхонь під покриття різними емалями, крім під покриття нітроемалями. Містять спеціальні антикорозійні добавки."
+        ]
+    },
+    "product": [
+        {
+            "section": [
+                {
+                    "img": "images/product/tara/640x480/emal-Antikor-Premium-10k.png",
+                    "head": "Емаль антикорозійна 3 в 1 Преміум",
+                    "desc": "Емаль антикорозійна 3 в 1 Преміум",
+                    "href": "template_scroll_color_2.html?name=emal-antikor-premium"
+                },
+                {
+                    "img": "images/product/tara/640x480/emal-PF-115-Lux-10k.png",
+                    "head": "ПФ-115C Люкс",
+                    "desc": "Емаль алкідна",
+                    "href": "template_scroll_color_2.html?name=emal-pf-115s-lux"
+                }
+            ]
+        },
+        {
+            "section": [
+                {
+                    "img": "images/product/tara/640x480/emal-Standart-Petrikivka-10.png",
+                    "head": "ПФ-115C Стандарт",
+                    "desc": "Емаль алкідна",
+                    "href": "template_scroll_color_2.html?name=emal-pf-115s-standart"
+                },
+                {
+                    "img": "images/product/tara/640x480/emal-Standart-Pol-10.png",
+                    "head": "ПФ-266С Стандарт",
+                    "desc": "Емаль алкідна для підлоги",
+                    "href": "template_scroll_color_2.html?name=emal-pf-266s"
+                },
+                {
+                    "img": "images/product/tara/640x480/emal-Petrikivka-10.png",
+                    "head": "ПФ-115C Эконом",
+                    "desc": "Емаль пентафталева",
+                    "href": "template_scroll_color_2.html?name=emal-pf-115s"
+                }
+            ]
+        },
+        {
+            "section": [
+                {
+                    "img": "images/product/tara/640x480/ma-15-9.png",
+                    "head": "МА-15",
+                    "desc": "Фарба олійна",
+                    "href": "template_scroll_color_2.html?name=farba-olijna-ma-15"
+                },
+                {
+                    "img": "images/product/tara/640x480/ma-15-Surik-9.png",
+                    "head": "МА-15<br/>сурік залізний",
+                    "desc": "сурік залізний",
+                    "href": "template_scroll_color_2.html?name=farba-olijna-ma-15-surik-zaliznij"
+                },
+                {
+                    "img": "images/product/tara/640x480/ma-15-Dlya-Dahu-9.png",
+                    "head": "МА-15<br/>для дахів",
+                    "desc": "Емаль алкідна для дахів",
+                    "href": "template_scroll_color_2.html?name=farba-ma-15-dlya-dahu"
+                }
+            ]
+        },
+        {
+            "section": [
+                {
+                    "img": "images/product/tara/640x480/grunt-gf-premium.png",
+                    "head": "Антикорозійна швидкосохнуча грунтівка",
+                    "desc": "",
+                    "href": "template_scroll_color_2.html?name=grunt-gf-premium"
+                },
+                {
+                    "img": "images/product/tara/640x480/grunt-gf-021C.png",
+                    "head": "Грунтівка ГФ-021 стандарт",
+                    "desc": "",
+                    "href": "template_scroll_color_2.html?name=grunt-gf-021C"
+                },
+                {
+                    "img": "images/product/tara/640x480/grunt-gf-021C-econom.png",
+                    "head": "Грунтівка ГФ-021",
+                    "desc": "",
+                    "href": "template_scroll_color_2.html?name=grunt-gf-021C-econom"
+                }
+            ]
+        },
+        {
+            "section": [
+                {
+                    "img": "images/product/tara/640x480/decor-lazur.png",
+                    "head": "Лазурь Декор-Захист Люкс",
+                    "desc": "",
+                    "href": "template_scroll_color_2.html?name=decor-lazur"
+                }
+            ]
+        },
+        {
+            "section": [
+                {
+                    "img": "images/product/tara/640x480/lak-PF-170.png",
+                    "head": "Атмосферостійкий алкідний лак ПФ-170",
+                    "desc": "",
+                    "href": "template_scroll_color_2.html?name=lak-pf-170"
+                },
+                {
+                    "img": "images/product/tara/640x480/dorozh_razmetka.png",
+                    "head": "Фарба для дорожньої розмітки",
+                    "desc": "",
+                    "href": "template_scroll_color_2.html?name=farba-dorozh-razmetka"
+                },
+                {
+                    "img": "images/product/tara/640x480/rozchinnik-for-emal.png",
+                    "head": "Розчинник для емалей",
+                    "desc": "",
+                    "href": "template_scroll_color_2.html?name=rozchinnik-for-emal"
+                }
+            ]
+        }
+    ]
+}

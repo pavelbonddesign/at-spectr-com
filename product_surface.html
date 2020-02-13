@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="Cache-Control" content="no-cache">
+        <link rel="icon" type="image/png" href="images/logo.png">
+
+        <script src="js/jquery.min.js"></script>
+        <script src="js/jquery.cookie.js"></script>
+
+        <link href="css/bootstrap/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+        <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
+
+        <link href="css/style.css" rel="stylesheet" type="text/css"/>
+
+        <script>
+            $(document).ready(function () {
+                if ($.cookie('lang')==="ru") {
+                    $("#logo").load("logo_ru.inc");
+                    $("#footer").load("footer_ru.inc");
+                    document.title = "Завод лакокрасочной продукции «СПЕКТР»";
+                } else {
+                    $("#logo").load("logo_ua.inc");
+                    $("#footer").load("footer_ua.inc");
+                    document.title = "Завод лакофарбової продукції «СПЕКТР»";
+                }
+                $("#menu").load("menu.inc");
+            });
+        </script>
+        
+        <style>
+            .grid__item img {
+                height: 100%;
+                width: auto;
+            }
+        </style>
+
+    </head>
+
+    <body>
+        <div id="loader" class="loader"></div>
+        <div id="logo"></div>
+        <div id="menu"></div>
+
+
+        <div id="content">
+
+            <div class="container-fluid">
+                <div class="row row-text">
+
+                    <div class="col-sm-12 col-md-4 column-text">
+                        <div class="panel-text margin-text-top">
+                            <h2></h2>
+                            <h3></h3>
+                            <div></div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-12 col-md-8" style="margin: auto;">
+                        <div id="slider1" class="row">
+                            <figure class="grid_item col-sm-6">
+                                <a href="">
+                                    <div class="grid__item">
+                                        <img src="" style="width: 100%;" alt=""/>
+                                        <div class="img-overlay-panel">
+                                            <div class="overlay-panel-h">
+                                                <h3></h3>
+                                            </div>
+                                            <div id="desc"></div>
+                                            <div class="overlay-panel-a">
+                                                <i class="fa fa-share-square-o"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </figure>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div id="footer"></div>
+
+        <script src="js/bootstrap/popper.min.js"></script>
+        <script src="js/bootstrap/bootstrap.min.js"></script>
+
+        <script src="js/product_surface.js"></script>
+        <script src="js/site.js" defer></script>
+
+    </body>
+
+</html>

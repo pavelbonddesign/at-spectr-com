@@ -1,0 +1,101 @@
+{
+    "title": {
+        "title": "Водная продукция"
+    },
+    "poster": {
+        "img": ""
+    },
+    "article": {
+        "title": "Водная продукция",
+        "head": "",
+        "text": [
+            "Водно-дисперсионные краски применяются для окраски бетонных плит, оштукатуренных и шпаклеванную поверхностей во всех типах зданий, потолков и стен в помещениях всех типов. Создают долговечное, прочное, паропроницаемая покрытия с высокими адгезионными свойствами. Не содержат органических растворителей. Без неприятного запаха. НЕ выделяют вредных веществ. Устойчивы к истиранию. Выдерживают влажную уборку. Содержат компоненты, предотвращающие появление плесени и грибка. ",
+            "Грунтовки ВД укрепляют структуру поверхности. Снижают расход лакокрасочных материалов. Быстро высыхают, после высыхания не выделяют вредных веществ.",
+            "Обладают широким спектром действия против бактерий, грибов, водорослей и дрожжей."
+        ]
+    },
+    "product": [
+        {
+            "section": [
+                {
+                    "img": "images/product/tara/640x480/wd-С22-LuxLine.png",
+                    "head": "С-22 LuxLine",
+                    "desc": "",
+                    "href": "template_scroll_color_2.html?name=farba-vd-luxline-c-22"
+                },
+                {
+                    "img": "images/product/tara/640x480/wd-С20-ProfiLine.png",
+                    "head": "С-20 ProfiLine",
+                    "desc": "",
+                    "href": "template_scroll_color_2.html?name=farba-vd-profiline-c-20"
+                },
+                {
+                    "img": "images/product/tara/640x480/wd-С21-ProfiLine.png",
+                    "head": "С-21 ProfiLine",
+                    "desc": "",
+                    "href": "template_scroll_color_2.html?name=farba-vd-profiline-c-21"
+                }
+            ]
+        },
+        {
+            "section": [
+                {
+                    "img": "images/product/tara/640x480/wd-С24-Luxline.png",
+                    "head": "С-24 Luxline",
+                    "desc": "",
+                    "href": "template_scroll_color_2.html?name=farba-vd-luxline-c-24"
+                },
+                {
+                    "img": "images/product/tara/640x480/wd-С23-Profiline.png",
+                    "head": "С-23 ProfiLine",
+                    "desc": "",
+                    "href": "template_scroll_color_2.html?name=farba-vd-profiline-c-23"
+                },
+                {
+                    "img": "images/product/tara/640x480/grunt-wd-kvarc.png",
+                    "head": "Грунтовка адгезионная кварцевая",
+                    "desc": "Грунтовка адгезионная кварцевая",
+                    "href": "template_scroll_color_2.html?name=grunt-vd-kvarc"
+                }
+            ]
+        },
+        {
+            "section": [
+                {
+                    "img": "images/product/tara/640x480/wd-Derevo.png",
+                    "head": "Бактерицидная краска для защиты деревьев и кустов",
+                    "desc": "",
+                    "href": "template_scroll_color_2.html?name=farba-vd-derevo-bactericid"
+                },
+                {
+                    "img": "images/product/tara/640x480/grunt-wd-c11.png",
+                    "head": "Грунт фунгицидный <br> для фасадов и интерьеров С-11",
+                    "desc": "",
+                    "href": "template_scroll_color_2.html?name=grunt-vd-fungicidnij-s-11"
+                },
+                {
+                    "img": "images/product/tara/640x480/grunt-wd-c10-5l.png",
+                    "head": "Грунтовка глубокого проникновения С-10",
+                    "desc": "",
+                    "href": "template_scroll_color_2.html?name=grunt-vd-universalnyj-s-10"
+                }
+            ]
+        },
+        {
+            "section": [
+                {
+                    "img": "images/product/tara/640x480/grunt-wd-Profiline_primer.png",
+                    "head": "Грунтовка глубокого проникновения <br/> С-10 ProfiLine",
+                    "desc": "",
+                    "href": "template_scroll_color_2.html?name=grunt-vd-profiline-s-10"
+                },
+                {
+                    "img": "images/product/tara/640x480/grunt-wd-1-k-4.png",
+                    "head": "Грунтовка глубокого проникновения <br/> С-10 концентрат 1: 4",
+                    "desc": "",
+                    "href": "template_scroll_color_2.html?name=grunt-vd-concentrat-s-10"
+                }
+            ]
+        }
+    ]
+}

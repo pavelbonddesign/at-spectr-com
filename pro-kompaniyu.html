@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>Завод лакофарбової продукції «СПЕКТР»</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="Cache-Control" content="no-cache">
+        <link rel="icon" type="image/png" href="images/logo.png">
+
+        <script src="js/jquery.min.js"></script>
+        <script src="js/jquery.cookie.js"></script>
+
+        <link href="css/bootstrap/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+        <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
+
+        <link href="css/style.css" rel="stylesheet" type="text/css"/>
+
+        <style>
+            font {
+                font-family: Geneva, Arial, Helvetica; 
+            }
+            @page { margin: 2cm }
+            p { margin-bottom: 0.25cm; direction: ltr; color: #000000; line-height: 120%; orphans: 2; widows: 2 }
+            p.western {
+                font-family: "Geneva", "Arial", "Helvetica";
+                font-size: 12pt;
+                color: #585858;
+                text-indent: 1.25cm;
+                align: justify;
+                margin-bottom: 0cm;
+                border: none;
+                padding: 0cm
+            }
+            p.cjk { font-family: "Noto Sans CJK SC Regular"; font-size: 12pt; so-language: zh-CN }
+            p.ctl { font-family: "Lohit Devanagari", "Times New Roman"; font-size: 12pt; so-language: hi-IN }
+        </style>
+
+        <style>
+            .b-popup{
+                width: 100%;
+                min-height: 100%;
+                background-color: rgba(0,0,0,0.5);
+                overflow: hidden;
+                position: fixed;
+                top: 0px;
+            }
+            .b-popup .b-popup-content{
+                height: 100%;
+                margin: 40px;
+                padding: 10px;
+                background-color: #c5c5c5;
+                border-radius: 5px;
+                box-shadow: 0px 0px 10px #000;
+                display: flex;
+                justify-content: center;
+            }
+            .b-popup a {
+                position: absolute;
+                top: 40px;
+                right: 50px;
+            }
+        </style>
+
+    </head>
+
+    <body lang="ru-RU" text="#000000" bgcolor="#ffffff" dir="ltr">
+        <div id="loader" class="loader"></div>
+        <div id="logo"></div>
+        <div id="menu"></div>
+
+
+
+        <div class="poster-menu poster-menu-img">
+            <img src="./images/poster/factory.jpg" alt=""/>
+        </div>
+
+        <div id="content">
+            <div class="single-panel-text"></div>
+        </div>
+
+
+        <div id="footer"></div>
+
+        <div class="b-popup" id="popup1">
+            <div class="b-popup-content">
+                <object data="doc/ISO/СПЕКТР сертификат ISO.pdf" type="application/pdf" height="100"></object>
+            </div>
+            <a href="javascript:PopUpHide()" ><i class="fa fa-window-close fa-2x" aria-hidden="true"></i></a>
+        </div>        
+
+        <script src="js/bootstrap/popper.min.js"></script>
+        <script src="js/bootstrap/bootstrap.min.js"></script>
+        <script src="js/site.js" defer></script>
+        <script>
+            $(document).ready(function () {
+                if ($.cookie('lang') === "ru") {
+                    document.title = "Завод лакокрасочной продукции «СПЕКТР»";
+                    $("#logo").load("logo_ru.inc");
+                    $("#footer").load("footer_ru.inc");
+                    $(".single-panel-text").load("pro-kompaniyu_ru.html");
+                } else {
+                    document.title = "Завод лакофарбової продукції «СПЕКТР»";
+                    $("#logo").load("logo_ua.inc");
+                    $("#footer").load("footer_ua.inc");
+                    $(".single-panel-text").load("pro-kompaniyu_ua.html");
+                }
+                $("#menu").load("menu.inc");
+            });
+        </script>
+
+        <script>
+            $(document).ready(function () {
+                //Скрыть PopUp при загрузке страницы    
+                PopUpHide();
+                $(".b-popup-content object").attr("height", $(window).height() - 100);
+                $(".b-popup-content object").attr("width", $(window).width() - 250);
+            });
+            //Функция отображения PopUp
+            function PopUpShow() {
+                $("#popup1").show(400);
+            }
+            //Функция скрытия PopUp
+            function PopUpHide() {
+                $("#popup1").hide(400);
+            }
+        </script>
+
+    </body>
+
+</html>

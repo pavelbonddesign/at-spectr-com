@@ -1,0 +1,206 @@
+{
+    "title": {
+        "title": "Фарби для дерев'яних поверхонь"
+    },
+    "poster": {
+        "img": ""
+    },
+    "article": {
+        "title": "Фарби для дерев'яних поверхонь",
+        "head": "Дерево",
+        "text": ["Для дерев’яних  поверхонь рекомендуємо використовувати високоякісні матеріали:"
+            ,"ґрунтовки ГФ-021(різних торгівельних марок);"
+            ,"фарби масляні МА-15( різних кольорів);"
+            ,"алкідні емалі  ПФ-115 та ПФ-115С( різних кольорів);"
+            ,"алкідні емалі ПФ-266С для підлоги( різних кольорів);"
+        ]
+    },
+    "product": [
+        {
+            "section": [
+                {
+                    "img": "images/product/tara/640x480/emal-Antikor-Premium-10k.png",
+                    "head": "Емаль антикорозійна 3 в 1 Преміум",
+                    "desc": "Емаль антикорозійна 3 в 1 Преміум",
+                    "href": "template_scroll_color_2.html?name=emal-antikor-premium"
+                },
+                {
+                    "img": "images/product/tara/640x480/emal-PF-115-Lux-10k.png",
+                    "head": "ПФ-115C Люкс",
+                    "desc": "Емаль алкідна",
+                    "href": "template_scroll_color_2.html?name=emal-pf-115s-lux"
+                }
+            ]
+        },
+        {
+            "section": [
+                {
+                    "img": "images/product/tara/640x480/emal-Standart-Petrikivka-10.png",
+                    "head": "ПФ-115C Стандарт",
+                    "desc": "Емаль алкідна",
+                    "href": "template_scroll_color_2.html?name=emal-pf-115s-standart"
+                },
+                {
+                    "img": "images/product/tara/640x480/emal-Standart-Pol-10.png",
+                    "head": "ПФ-266С Стандарт",
+                    "desc": "Емаль алкідна для підлоги",
+                    "href": "template_scroll_color_2.html?name=emal-pf-266s"
+                },
+                {
+                    "img": "images/product/tara/640x480/emal-Petrikivka-10.png",
+                    "head": "ПФ-115C Эконом",
+                    "desc": "Емаль пентафталева",
+                    "href": "template_scroll_color_2.html?name=emal-pf-115s"
+                }
+            ]
+        },
+        {
+            "section": [
+                {
+                    "img": "images/product/tara/640x480/ma-15-9.png",
+                    "head": "МА-15",
+                    "desc": "Фарба олійна",
+                    "href": "template_scroll_color_2.html?name=farba-olijna-ma-15"
+                },
+                {
+                    "img": "images/product/tara/640x480/ma-15-Surik-9.png",
+                    "head": "МА-15<br/>сурік залізний",
+                    "desc": "сурік залізний",
+                    "href": "template_scroll_color_2.html?name=farba-olijna-ma-15-surik-zaliznij"
+                },
+                {
+                    "img": "images/product/tara/640x480/ma-15-Dlya-Dahu-9.png",
+                    "head": "МА-15<br/>для дахів",
+                    "desc": "Емаль алкідна для дахів",
+                    "href": "template_scroll_color_2.html?name=farba-ma-15-dlya-dahu"
+                }
+            ]
+        },
+        {
+            "section": [
+                {
+                    "img": "images/product/tara/640x480/grunt-gf-premium.png",
+                    "head": "Антикорозійна швидкосохнуча грунтівка",
+                    "desc": "",
+                    "href": "template_scroll_color_2.html?name=grunt-gf-premium"
+                },
+                {
+                    "img": "images/product/tara/640x480/grunt-gf-021C.png",
+                    "head": "Грунтівка ГФ-021 стандарт",
+                    "desc": "",
+                    "href": "template_scroll_color_2.html?name=grunt-gf-021C"
+                },
+                {
+                    "img": "images/product/tara/640x480/grunt-gf-021C-econom.png",
+                    "head": "Грунтівка ГФ-021",
+                    "desc": "",
+                    "href": "template_scroll_color_2.html?name=grunt-gf-021C-econom"
+                }
+            ]
+        },
+        {
+            "section": [
+                {
+                    "img": "images/product/tara/640x480/lak-PF-170.png",
+                    "head": "Атмосферостійкий алкідний лак ПФ-170",
+                    "desc": "",
+                    "href": "template_scroll_color_2.html?name=lak-pf-170"
+                },
+                {
+                    "img": "images/product/tara/640x480/decor-lazur.png",
+                    "head": "Лазурь Декор-Захист Люкс",
+                    "desc": "",
+                    "href": "template_scroll_color_2.html?name=decor-lazur"
+                },
+                {
+                    "img": "images/product/tara/640x480/rozchinnik-for-emal.png",
+                    "head": "Розчинник для емалей",
+                    "desc": "",
+                    "href": "template_scroll_color_2.html?name=rozchinnik-for-emal"
+                }
+            ]
+        },
+        {
+            "section": [
+                {
+                    "img": "images/product/tara/640x480/wd-С22-LuxLine.png",
+                    "head": "С-22 LuxLine",
+                    "desc": "Фарба інтер'єрна",
+                    "href": "template_scroll_color_2.html?name=farba-vd-luxline-c-22"
+                },
+                {
+                    "img": "images/product/tara/640x480/wd-С20-ProfiLine.png",
+                    "head": "С-20 ProfiLine",
+                    "desc": "Фарба інтер’єрна",
+                    "href": "template_scroll_color_2.html?name=farba-vd-profiline-c-20"
+                },
+                {
+                    "img": "images/product/tara/640x480/wd-С21-ProfiLine.png",
+                    "head": "С-21 ProfiLine",
+                    "desc": "Фарба інтер'єрна",
+                    "href": "template_scroll_color_2.html?name=farba-vd-profiline-c-21"
+                }
+            ]
+        },
+        {
+            "section": [
+                {
+                    "img": "images/product/tara/640x480/wd-С24-Luxline.png",
+                    "head": "С-24 Luxline",
+                    "desc": "Фарба фасадна",
+                    "href": "template_scroll_color_2.html?name=farba-vd-luxline-c-24"
+                },
+                {
+                    "img": "images/product/tara/640x480/wd-С23-Profiline.png",
+                    "head": "С-23 ProfiLine",
+                    "desc": "Фарба фасадна",
+                    "href": "template_scroll_color_2.html?name=farba-vd-profiline-c-23"
+                },
+                {
+                    "img": "images/product/tara/640x480/grunt-wd-kvarc.png",
+                    "head": "Грунтовка адгезійна кварцова",
+                    "desc": "Грунтовка адгезійна кварцова",
+                    "href": "template_scroll_color_2.html?name=grunt-vd-kvarc"
+                }
+            ]
+        },
+        {
+            "section": [
+                {
+                    "img": "images/product/tara/640x480/wd-Derevo.png",
+                    "head": "Бактерицидна фарба для захисту дерев та кущів",
+                    "desc": "",
+                    "href": "template_scroll_color_2.html?name=wd-Deferevo"
+                },
+                {
+                    "img": "images/product/tara/640x480/grunt-wd-c11.png",
+                    "head": "Ґрунт фунгіцидний<br>для фасадів і інтер’єрів С-11",
+                    "desc": "Ґрунт фунгіцидний",
+                    "href": "template_scroll_color_2.html?name=grunt-vd-fungicidnij-s-11"
+                },
+                {
+                    "img": "images/product/tara/640x480/grunt-wd-c10-5l.png",
+                    "head": "Ґрунтовка глибокого проникнення С-10",
+                    "desc": "Ґрунтовка глибокого проникнення",
+                    "href": "template_scroll_color_2.html?name=grunt-vd-universalnyj-s-10"
+                }
+            ]
+        },
+        {
+            "section": [
+                {
+                    "img": "images/product/tara/640x480/grunt-wd-Profiline_primer.png",
+                    "head": "Ґрунтовка глибокого проникнення<br/>С-10 ProfiLine",
+                    "desc": "Ґрунтовка глибокого проникнення",
+                    "href": "template_scroll_color_2.html?name=grunt-vd-profiline-s-10"
+                },
+                {
+                    "img": "images/product/tara/640x480/grunt-wd-1-k-4.png",
+                    "head": "Ґрунтовка глибокого проникнення<br/>С-10 концентрат 1:4",
+                    "desc": "Ґрунтовка глибокого проникнення",
+                    "href": "template_scroll_color_2.html?name=grunt-vd-concentrat-s-10"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Завод лакофарбової продукції «СПЕКТР»</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Cache-Control" content="no-cache">
+    <link rel="icon" type="image/png" href="images/logo.png">
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery.cookie.js"></script>
+    <script src="js/advice.js"></script>
+
+    <link href="css/bootstrap/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+    <script src='https://www.google.com/recaptcha/api.js'></script>
+
+    <script>
+        $(document).ready(function () {
+            if ($.cookie('lang') === "ru") {
+                $("#logo").load("logo_ru.inc");
+                $("#footer").load("footer_ru.inc");
+                document.title = "Завод лакокрасочной продукции «СПЕКТР»";
+            } else {
+                $("#logo").load("logo_ua.inc");
+                $("#footer").load("footer_ua.inc");
+                document.title = "Завод лакофарбової продукції «СПЕКТР»";
+            }
+            $("#menu").load("menu.inc");
+        });
+    </script>
+
+    <style>
+        .feedback {
+            margin: 0 10% auto;
+        }
+
+        .feedback input,
+        .feedback textarea {
+            width: 100%;
+        }
+
+        .feedback-form label {
+            margin-top: 20px;
+        }
+
+        h1>img {
+            transition: all 0.3s ease-in-out 0s;
+        }
+
+        h1>img:hover {
+            cursor: crosshair;
+            transform: rotate(360deg);
+            transition: all 0.3s ease-in-out 0s;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="alert alert-success alert-dismissible" id="alert" style="position: fixed; z-index: 5000; top: 0;">
+                <a href="#0" class="close" onclick="$('.container').hide(400);">&times;</a>
+                <strong>Success!</strong>
+        </div>
+    </div>
+
+
+    <div id="logo"></div>
+    <div id="menu"></div>
+
+    <div id="content">
+
+        <div class="wrapper background">
+
+            <div class="feedback about-company-panel" style="padding: 3%;">
+                <h1>
+                    <img src="images/email-logo-png-1.png" alt="" />
+                    <!--img src="images/logo_128x128.png" alt=""/-->
+                    <span id="desc1">Форма зворотнього зв'язку</span>
+                </h1>
+                <div id="desc2" style="font-size: 14px;">
+                    <p id="p1"></p>
+                    <p id="p2"></p>
+                    <p id="p3" style="font-weight: bold"></p>
+
+                    <p id="p4"></p>
+                    <ul id="condition" style="padding-left: 30px;"></ul>
+                </div>
+
+                <div class="container-fluid" style="padding: 0;">
+                    <div class="col-sm-12 col-md-8 col-lg-6" style="padding: 0;">
+                        <div class='feedback-form'>
+                            <label for="fio">Ваше ім'я
+                                <sup>*</sup>
+                            </label>
+                            <input type="text" name="fio" id="fio" required placeholder="Ваше ім'я" value="">
+                            <label for="email">Електрона пошта
+                                <sup>*</sup>
+                            </label>
+                            <input type="email" name="contact" id="email" required placeholder="Електрона пошта" value="">
+                            <label for="phone">Телефон
+                                <sup>*</sup>
+                            </label>
+                            <input type="tel" name="phone" id="phone" required placeholder="Телефон" value="">
+                            <label for="message">Повідомлення
+                                <sup>*</sup>
+                            </label>
+                            <textarea name="message" id="message" required rows="5" placeholder="Текст повідомлення"></textarea>
+                            <br/>
+                            <div class="g-recaptcha" data-sitekey="6Lf85kcUAAAAAJs_LSw2LrtHKFGYgy9u485CMawm"></div>
+                            <br/>
+                            <div style="display: flex; flex-direction: row; align-items: center; padding: 10px 0;">
+                                <button id="btn-send" class="btn btn-default btn-lg" type="button" onclick="do_advice();">Відправити</button>
+                                <img id="img_send" src="images/preload/loading7.gif" alt="" style="margin-left: 15px; display: none;" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div id="footer"></div>
+
+    <script src="js/bootstrap/popper.min.js"></script>
+    <script src="js/bootstrap/bootstrap.min.js"></script>
+
+    <script>
+        let ua = {
+            desc1: "Форма зворотнього зв'язку",
+            desc2: {
+                p1: "ТДВ ДЛФЗ «Спектр» цінує всіх своїх клієнтів. Ми працюємо для вас по всій країні, як у великих містах, так і в самих дрібних райцентрах, і готові до того, щоб дійти до кожного клієнта.",
+                p2: "При використанні форми зворотного зв'язку, будь ласка, коректно вказуйте в полях, обов`язкових для заповнення (*) - Ваше ім'я, Ваші дані, Повідомлення. Це дозволить нам зв'язатися з Вами для надання найбільш повної відповіді на Ваше питання.",
+                p3: "З питань співпраці, обов'язково вказуйте свою адресу.",
+                p4: "Ми маємо право не відповідати, якщо:",
+                condition: ["зміст повідомлення порушує законодавство України;",
+                    "зміст повідомлення суперечить основам моралі і моральності, несе образливий характер;",
+                    "повідомлення не відноситься до діяльності ТДВ ДЛФЗ «Спектр»."
+                ]
+            },
+            desc3: "Заповніть будь ласка форму реєстрації:",
+            fio: {
+                text: "Ваше ім'я",
+                placeholder: "Ваше ім'я"
+            },
+            email: {
+                text: "Електрона пошта",
+                placeholder: "Електрона пошта"
+            },
+            phone: {
+                text: "Телефон",
+                placeholder: "Телефон"
+            },
+            message: {
+                text: "Повідомлення",
+                placeholder: "Текст повідомлення"
+            },
+            submit: "Відправити"
+        };
+        let ru = {
+            desc1: "Форма обратной связи",
+            desc2: {
+                p1: "ОДО ДЛКЗ «Спектр» ценит всех своих клиентов. Мы работаем для вас по всей стране, как в крупных городах, так и в самых мелких райцентрах, и готовы к тому, чтобы дойти до каждого клиента.",
+                p2: "При использовании формы обратной связи, пожалуйста, корректно указывайте в полях, обязательных для заполнения (*) - Ваше имя, Ваши данные, Сообщения. Это позволит нам связаться с Вами для предоставления наиболее полного ответа на Ваш вопрос.",
+                p3: "По вопросам сотрудничества, обязательно указывайте свой адрес.",
+                p4: "Мы имеем право не отвечать, если",
+                condition: ["содержание сообщения нарушает законодательство Украины;",
+                    "содержание сообщения противоречит основам морали и нравственности, несет оскорбительный характер;",
+                    "сообщение не относится к деятельности ОДО ДЛКЗ «Спектр»."
+                ]
+            },
+            desc3: "Заполните, пожалуйста, форму регистрации:",
+            fio: {
+                text: "Ваше имя",
+                placeholder: "Ваше имя"
+            },
+            email: {
+                text: "Электроная почта",
+                placeholder: "Электроная почта"
+            },
+            phone: {
+                text: "Телефон",
+                placeholder: "Телефон"
+            },
+            message: {
+                text: "Сообщение",
+                placeholder: "Текст сообщения"
+            },
+            submit: "Отправить"
+        };
+
+        let lang = $.cookie('lang') === "ru" ? ru : ua;
+        $("#desc1").text(lang.desc1);
+        $("#p1").text(lang.desc2.p1);
+        $("#p2").text(lang.desc2.p2);
+        $("#p3").text(lang.desc2.p3);
+        $("#p4").text(lang.desc2.p4);
+        lang.desc2.condition.forEach(function (item, i, arr) {
+            $("#condition").append($("<li>").text(item))
+        });
+        $("#desc3").text(lang.desc3);
+        $("label[for='fio']").html(lang.fio.text + "<sup>*</sup>");
+        $("#fio").attr('placeholder', lang.fio.placeholder);
+        $("label[for='email']").html(lang.email.text + "<sup>*</sup>");
+        $("#email").attr('placeholder', lang.email.placeholder);
+        $("label[for='phone']").html(lang.phone.text + "<sup>*</sup>");
+        $("#phone").attr('placeholder', lang.phone.placeholder);
+        $("label[for='message']").html(lang.message.text + "<sup>*</sup>");
+        $("#message").attr('placeholder', lang.message.placeholder);
+        $("#btn-send").text(lang.submit);
+    </script>
+
+    <script src="js/site.js"></script>
+
+</body>
+
+</html>

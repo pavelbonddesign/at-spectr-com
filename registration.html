@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Завод лакофарбової продукції «СПЕКТР»: Реєстрація</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="Cache-Control" content="no-cache">
+        <link rel="icon" type="image/png" href="images/logo.png">
+
+        <script src="js/jquery.min.js"></script>
+        <script src="js/jquery.cookie.js"></script>
+        <script src="js/registration.js"></script>
+
+        <link href="css/bootstrap/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+        <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
+
+        <link href="css/style.css" rel="stylesheet" type="text/css"/>
+        <script src='https://www.google.com/recaptcha/api.js'></script>
+
+        <script>
+            $(document).ready(function () {
+                if ($.cookie('lang')==="ru") {
+                    $("#logo").load("logo_ru.inc");
+                    $("#footer").load("footer_ru.inc");
+                    document.title = "Завод лакокрасочной продукции «СПЕКТР»";
+                } else {
+                    $("#logo").load("logo_ua.inc");
+                    $("#footer").load("footer_ua.inc");
+                    document.title = "Завод лакофарбової продукції «СПЕКТР»";
+                }
+                $("#menu").load("menu.inc");
+            });
+        </script>
+
+        <style>
+            .feedback {
+                margin: 0 10% auto;
+            }
+            .feedback input,
+            .feedback textarea {
+                width: 100%;
+            }
+            .feedback-form label {
+                margin-top: 20px;
+            }
+            #btn-send {
+                padding: 0 10px;
+            }
+
+            h1 > img {
+                transition: all 0.3s ease-in-out 0s;
+            }
+            h1 > img:hover {
+                cursor: crosshair;
+                transform: rotate(360deg);
+                transition: all 0.3s ease-in-out 0s;
+            }
+
+        </style>
+    </head>
+    <body>
+        <div id="logo"></div>
+        <div id="menu"></div>
+
+        <div id="content">
+
+            <div class="wrapper background">
+
+                <div class="feedback about-company-panel" style="padding: 3%;">
+                    <h1><!--img src="images/email-logo-png-1.png" alt=""/-->
+                        <img src="images/logo_128x128.png" alt=""/>
+                        <span id="desc1"></span>
+                    </h1>
+                    <div style="font-size: 14px;">
+                        <p id="desc2"></p>
+                        <h4 id="desc3" style="font-weight: bold"></h4>
+                    </div>
+
+                    <div class="container-fluid" style="padding: 0;">
+                        <div class="col-sm-12 col-md-8 col-lg-6" style="padding: 0;">
+                            <div class='feedback-form'>
+                                <label for="login">Логін<sup>*</sup></label>
+                                <input type="text" name="login" id="login" required placeholder="Логін">
+                                <label for="password">Пароль<sup>*</sup></label>
+                                <input type="password" name="password" id="password" required placeholder="Пароль">
+                                <label for="fio">Ваше ім'я<sup>*</sup></label>
+                                <input type="text" name="fio" id="fio" required placeholder="Ваше ім'я">
+                                <label for="email">Електрона пошта<sup>*</sup></label>
+                                <input type="email" name="contact" id="email" required placeholder="Електрона пошта">
+                                <label for="phone">Телефон<sup>*</sup></label>
+                                <input type="tel" name="phone" id="phone" required placeholder="Телефон">
+                                <br/><br/>
+                                <div class="g-recaptcha" data-sitekey="6Lf85kcUAAAAAJs_LSw2LrtHKFGYgy9u485CMawm"></div>
+                                <br/>
+                                <button type="submit" id="btn-send" onclick="do_registration();">Реєстрація</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div id="footer"></div>
+
+        <script src="js/bootstrap/popper.min.js"></script>
+        <script src="js/bootstrap/bootstrap.min.js"></script>
+        
+        <script>
+            let ua = {
+                desc1: "Реєстрація",
+                desc2: "ТДВ ДЛФЗ «Спектр» цінує всіх своїх клієнтів. Ми працюємо для вас по всій країні, як у великих містах, так і в самих дрібних райцентрах, і готові до того, щоб дійти до кожного клієнта.",
+                desc3: "Заповніть будь ласка форму реєстрації:",
+                login: {
+                    text: "Логін",
+                    placeholder: "Логін"
+                },
+                password: {
+                    text: "Пароль",
+                    placeholder: "Пароль"
+                },
+                fio: {
+                    text: "Ваше ім'я",
+                    placeholder: "Ваше ім'я"
+                },
+                email: {
+                    text: "Електрона пошта",
+                    placeholder: "Електрона пошта"
+                },
+                phone: {
+                    text: "Телефон",
+                    placeholder: "Телефон"
+                },
+                submit: "Реєстрація"
+            };
+            let ru = {
+                desc1: "Регистрация",
+                desc2: "ОДО ДЛКЗ «Спектр» ценит всех своих клиентов. Мы работаем для вас по всей стране, как в крупных городах, так и в самых мелких райцентрах, и готовы к тому, чтобы дойти до каждого клиента.",
+                desc3: "Заполните, пожалуйста, форму регистрации:",
+                login: {
+                    text: "Логин",
+                    placeholder: "Логин"
+                },
+                password: {
+                    text: "Пароль",
+                    placeholder: "Пароль"
+                },
+                fio: {
+                    text: "Ваше имя",
+                    placeholder: "Ваше имя"
+                },
+                email: {
+                    text: "Электронная почта",
+                    placeholder: "Электронная почта"
+                },
+                phone: {
+                    text: "Телефон",
+                    placeholder: "Телефон"
+                },
+                submit: "Регистрация"
+            };
+            
+            let lang = $.cookie('lang')==="ru" ? ru : ua;
+            $("#desc1").text(lang.desc1);
+            $("#desc2").text(lang.desc2);
+            $("#desc3").text(lang.desc3);
+            $("label[for='login']" ).html(lang.login.text + "<sup>*</sup>");
+            $("#login").attr('placeholder', lang.login.placeholder);
+            $("label[for='fio']" ).html(lang.fio.text + "<sup>*</sup>");
+            $("#fio").attr('placeholder', lang.fio.placeholder);
+            $("label[for='email']" ).html(lang.email.text + "<sup>*</sup>");
+            $("#email").attr('placeholder', lang.email.placeholder);
+            $("label[for='phone']" ).html(lang.phone.text + "<sup>*</sup>");
+            $("#phone").attr('placeholder', lang.phone.placeholder);
+            $("#btn-send").text(lang.submit);
+        </script>
+
+        <script src="js/site.js"></script>
+
+    </body>
+</html>

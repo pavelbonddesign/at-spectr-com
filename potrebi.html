@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>Завод лакофарбової продукції «СПЕКТР»</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="Cache-Control" content="no-cache">
+        <link rel="icon" type="image/png" href="images/logo.png">
+
+        <script src="js/jquery.min.js"></script>
+        <script src="js/jquery.cookie.js"></script>
+
+        <link href="css/bootstrap/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+        <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
+
+        <link href="css/style.css" rel="stylesheet" type="text/css"/>
+
+        <script>
+            $(document).ready(function () {
+                if ($.cookie('lang')==="ru") {
+                    $("#logo").load("logo_ru.inc");
+                    $("#footer").load("footer_ru.inc");
+                    document.title = "Завод лакокрасочной продукции «СПЕКТР»";
+                } else {
+                    $("#logo").load("logo_ua.inc");
+                    $("#footer").load("footer_ua.inc");
+                    document.title = "Завод лакофарбової продукції «СПЕКТР»";
+                }
+                $("#menu").load("menu.inc");
+            });
+        </script>
+        <script>
+            /*window.onload = function () {
+                $("#banner").height($(window).height() - $("#logo").height() - $("#menu").height() - 100);
+            }*/
+        </script>
+
+        <style>
+            h3 img {
+                height: 50px;
+            }
+        </style>
+
+    </head>
+
+    <body>
+        <div id="loader" class="loader"></div>
+        <div id="logo"></div>
+        <div id="menu"></div>
+
+
+        <div class="wrapper">
+            <div class="poster-menu poster-menu-img">
+                <img src="./images/poster/potrebi.jpg" alt="" />
+            </div>
+
+            <div class="single-panel-text">
+                <h1 id="head">Потреби підприємства</h1>
+                <div class="container-fluid center-block">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div>
+                                <ul id="list1"></ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div>
+                                <ul id="list2"></ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div id="footer"></div>
+        </div>
+
+        <script src="js/bootstrap/popper.min.js"></script>
+        <script src="js/bootstrap/bootstrap.min.js"></script>
+        
+        <script>
+            let ua = {
+                title: "Потреби підприємства",
+                list1: [
+                    "Алкідни смоли ( лак ПФ-060,лак ГФ-01 та інше)"
+                    ,"Дісперсії"
+                    ,"Розчинники (уайт-спирит, сольвент,ксилол, етілацетат та інше)"
+                    ,"Наповнювачі( крейда, кальцити)"
+                    ,"Пігменти ( двуокись титану, органічні та неоганічні)"
+                    ,"Функціональні домішки( сикативи, МЕКО, бентонити, пеногасники, коалесценти та інше)"
+                ],
+                list2: [
+                    "Тара металева( банка №5, №10, барабани 40-50 л та інше)"
+                    ,"Тара пластикова(1-10 л)"
+                    ,"Тара ПЕТ (0,5-5 л)"
+                    ,"Плівка (терм. та стрейтч)"
+                    ,"Піддони"
+                    ,"Гофракартон"
+                ]
+            };
+            let ru = {
+                title: "Потребности предприятия",
+                list1: [
+                       "Алкидные смолы (лак ПФ-060, лак ГФ-01 и т.д.)"
+                     , "Дисперсии"
+                     , "Растворители (уайт-спирит, сольвент, ксилол, этилацетат и т.д.)"
+                     , "Наполнители (мел, кальцит)"
+                     , "Пигменты (двуокись титана, органические и неоганични)"
+                     , "Функциональные добавки (сиккативы, МЕКО, бентонит, пеногасникы, Коалесценты и т.д.)"
+                ],
+                list2: [
+                       "Тара металлическая (банка №5, №10, барабаны 40-50 л и т.д.)"
+                     , "Тара пластиковая (1-10 л)"
+                     , "Тара ПЭТ (0,5-5 л)"
+                     , "Пленка (терм. И стрейтч)"
+                     , "Поддоны"
+                     , "Гофракартон"
+                ]
+            };
+            
+            let lang = $.cookie('lang')==="ru" ? ru : ua;
+            $("#head").text(lang.title);
+            lang.list1.forEach(function (item, i, arr) {
+                $("#list1").append($("<li>").text(item));
+            });
+            lang.list2.forEach(function (item, i, arr) {
+                $("#list2").append($("<li>").text(item));
+            });
+        </script>
+
+        <script src="js/site.js" defer></script>
+
+    </body>
+
+</html>

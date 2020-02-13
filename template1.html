@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="Cache-Control" content="no-cache">
+        <link rel="icon" type="image/png" href="images/logo.png">
+
+        <script src="js/jquery.min.js"></script>
+        <script src="js/jquery.cookie.js"></script>
+
+        <link href="css/bootstrap/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+        <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
+        <link href="css/style.css" rel="stylesheet" type="text/css"/>
+        <script src="js/common.js"></script>
+
+        <script>
+            $(document).ready(function () {
+                if ($.cookie('lang')==="ru") {
+                    $("#logo").load("logo_ru.inc");
+                    $("#footer").load("footer_ru.inc");
+                    document.title = "Завод лакокрасочной продукции «СПЕКТР»";
+                } else {
+                    $("#logo").load("logo_ua.inc");
+                    $("#footer").load("footer_ua.inc");
+                    document.title = "Завод лакофарбової продукції «СПЕКТР»";
+                }
+                $("#menu").load("menu.inc");
+            });
+        </script>
+
+        <style>
+            .wrapper {
+                padding: 25px;
+                margin: 0;
+            }
+            .item {
+                overflow: visible;
+                text-align: center;
+                position: relative;
+            }
+            .item img {
+                width: 100%;
+                height: 100%;
+                transition: all 0.3s ease-out;
+            }
+            .item:hover img {
+                transform: scale(1.1);
+                transition: all 0.3s ease-out;
+                opacity: 0.9;
+            }
+            .overlay-panel {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+                /*margin: 5% 10%;*/
+                padding: 20%;
+                position: absolute;
+                top: 0;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                background: #ffffff;
+                /*border: 30px solid rgba(255, 255, 255, 0);*/
+                opacity: 0;
+                transition: all 0.3s ease-out;
+                z-index: 10;
+                border-radius: 5px;
+            }
+            .overlay-panel i {
+                font-family: FontAwesome;
+                font-size: 250%;
+                color: #444444;
+            }
+            .overlay-panel p {
+                font-size: 20px;
+                color: #444444;
+            }
+            .item:hover .overlay-panel {
+                transform: scale(1.1);
+                opacity: 0.8;
+                transition: all 0.3s ease-out;
+            }
+            .title-item {
+                color: #4d4d4d;
+                text-decoration: none;
+                margin-top: 15px;
+            }
+            
+        </style>
+
+    </head>
+
+    <body>
+        <div id="loader" class="loader"></div>
+        <div id="logo"></div>
+        <div id="menu"></div>
+
+        <div id="content">
+            <div style="height: 50px;"></div>
+            <div class="container-fluid">
+                <div class="row row-text">
+
+                    <div class="col-sm-12 col-md-4 col-lg-4 column-text">
+                        <div class="panel-text margin-text-top">
+                            <h2></h2>
+                            <h3></h3>
+                            <div></div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-12 col-md-8 col-lg-8" style="margin: auto;">
+                        <div id="slider1" class="row">
+                            <figure class="wrapper col-sm-4">
+                                <a href="">
+                                    <div class="item">
+                                        <img src="" alt=""/>
+                                        <div class="title-item"></div>
+                                        <div class="overlay-panel">
+                                            <p></p>
+                                            <!--i class="fa fa-share-square-o"></i-->
+                                        </div>
+                                    </div>
+                                </a>
+                            </figure>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+
+        <div id="footer"></div>
+        
+
+        <script src="js/bootstrap/popper.min.js" defer></script>
+        <script src="js/bootstrap/bootstrap.min.js" defer></script>
+        <script src="js/template1.js" defer></script>
+        <script src="js/site.js" defer></script>
+
+    </body>
+
+</html>

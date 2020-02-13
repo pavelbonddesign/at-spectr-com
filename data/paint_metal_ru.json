@@ -1,0 +1,112 @@
+{
+    "title": {
+        "title": "Краски для металлических поверхностей"
+    },
+    "poster": {
+        "img": ""
+    },
+    "article": {
+        "title": "Краски для металлических поверхностей",
+        "head": "Металл",
+        "text": ["Для металлических поверхностей рекомендуем использовать высококачественные материалы:"
+            ,"грунтовки ГФ-021 (различных торговых марок), антикоррозийную быстросохнущую грунтовку;"
+            ,"краска масляная МА-15 (разных цветов), сурик и краску для крыш;"
+            ,"алкидные эмали ПФ-115 и ПФ-115С (разных цветов)"
+            ,"алкидно-уретановые эмали «3 в 1» (разных цветов)."
+        ]
+    },
+    "product": [
+        {
+            "section": [
+                {
+                    "img": "images/product/tara/640x480/emal-Antikor-Premium-10k.png",
+                    "head": "Эмаль антикоррозионная 3 в 1 Премиум",
+                    "desc": "",
+                    "href": "template_scroll_color_2.html?name=emal-antikor-premium"
+                },
+                {
+                    "img": "images/product/tara/640x480/emal-PF-115-Lux-10k.png",
+                    "head": "ПФ-115C Люкс",
+                    "desc": "",
+                    "href": "template_scroll_color_2.html?name=emal-pf-115s-lux"
+                }
+            ]
+        },
+        {
+            "section": [
+                {
+                    "img": "images/product/tara/640x480/emal-Standart-Petrikivka-10.png",
+                    "head": "ПФ-115C Стандарт",
+                    "desc": "",
+                    "href": "template_scroll_color_2.html?name=emal-pf-115s-standart"
+                },
+                {
+                    "img": "images/product/tara/640x480/emal-Petrikivka-10.png",
+                    "head": "ПФ-115C",
+                    "desc": "",
+                    "href": "template_scroll_color_2.html?name=emal-pf-115s"
+                },
+                {
+                    "img": "images/product/tara/640x480/emal-Standart-Pol-10.png",
+                    "head": "ПФ-266С Стандарт",
+                    "desc": "",
+                    "href": "template_scroll_color_2.html?name=emal-pf-266s"
+                }
+            ]
+        },
+        {
+            "section": [
+                {
+                    "img": "images/product/tara/640x480/ma-15-9.png",
+                    "head": "МА-15",
+                    "desc": "",
+                    "href": "template_scroll_color_2.html?name=farba-olijna-ma-15"
+                },
+                {
+                    "img": "images/product/tara/640x480/ma-15-Surik-9.png",
+                    "head": "МА-15<br/>сурик железный",
+                    "desc": "",
+                    "href": "template_scroll_color_2.html?name=farba-olijna-ma-15-surik-zaliznij"
+                },
+                {
+                    "img": "images/product/tara/640x480/ma-15-Dlya-Dahu-9.png",
+                    "head": "МА-15<br/>для крыш",
+                    "desc": "",
+                    "href": "template_scroll_color_2.html?name=farba-ma-15-dlya-dahu"
+                }
+            ]
+        },
+        {
+            "section": [
+                {
+                    "img": "images/product/tara/640x480/grunt-gf-premium.png",
+                    "head": "Антикоррозийная быстросохнущая грунтовка",
+                    "desc": "",
+                    "href": "template_scroll_color_2.html?name=grunt-gf-premium"
+                },
+                {
+                    "img": "images/product/tara/640x480/grunt-gf-021C.png",
+                    "head": "Грунтовка ГФ-021С стандарт ",
+                    "desc": "",
+                    "href": "template_scroll_color_2.html?name=grunt-gf-021C"
+                },
+                {
+                    "img": "images/product/tara/640x480/grunt-gf-021C-econom.png",
+                    "head": "Грунтовка ГФ-021",
+                    "desc": "",
+                    "href": "template_scroll_color_2.html?name=grunt-gf-021C-econom"
+                }
+            ]
+        },
+        {
+            "section": [
+                {
+                    "img": "images/product/tara/640x480/lak-PF-170.png",
+                    "head": "Атмосферостойкий алкидный лак ПФ-170",
+                    "desc": "",
+                    "href": "template_scroll_color_2.html?name=lak-pf-170"
+                }
+            ]
+        }
+    ]
+}

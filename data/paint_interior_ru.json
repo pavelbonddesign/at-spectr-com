@@ -1,0 +1,85 @@
+{
+    "title": {
+        "title": "Интерьерные краски"
+    },
+    "poster": {
+        "img": ""
+    },
+    "article": {
+        "title": "Интерьерные краски",
+        "head": "Интерьер",
+        "text": ["Для интерьерных работ рекомендуем использовать высококачественные материалы:"
+            ,"водно дисперсионные грунтовки (различных торговых марок);"
+            ,"краска для стен и потолков;"
+            ,"интерьерные краски (различных торговых марок);"
+            ,"алкидные эмали ПФ-115 и ПФ-115С (разных цветов),"
+            ,"алкидные емали ПФ-266с для пола (разных цветов),"
+            ,"краски масляные МА-15 (разных цветов)."        ]
+    },
+    "product": [
+        {
+            "section": [
+                {
+                    "img": "images/product/tara/640x480/wd-С22-LuxLine.png",
+                    "head": "С-22 LuxLine",
+                    "desc": "",
+                    "href": "template_scroll_color_2.html?name=farba-vd-luxline-c-22"
+                },
+                {
+                    "img": "images/product/tara/640x480/wd-С20-ProfiLine.png",
+                    "head": "С-20 ProfiLine",
+                    "desc": "",
+                    "href": "template_scroll_color_2.html?name=farba-vd-profiline-c-20"
+                },
+                {
+                    "img": "images/product/tara/640x480/wd-С21-ProfiLine.png",
+                    "head": "С-21 ProfiLine",
+                    "desc": "",
+                    "href": "template_scroll_color_2.html?name=farba-vd-profiline-c-21"
+                }
+            ]
+        },
+        {
+            "section": [
+                {
+                    "img": "images/product/tara/640x480/grunt-wd-kvarc.png",
+                    "head": "Грунтовка адгезионная кварцевая",
+                    "desc": "Грунтовка адгезионная кварцевая",
+                    "href": "template_scroll_color_2.html?name=grunt-vd-kvarc"
+                }
+            ]
+        },
+        {
+            "section": [
+                {
+                    "img": "images/product/tara/640x480/grunt-wd-c11.png",
+                    "head": "Грунт фунгицидный <br> для фасадов и интерьеров С-11",
+                    "desc": "",
+                    "href": "template_scroll_color_2.html?name=grunt-vd-fungicidnij-s-11"
+                },
+                {
+                    "img": "images/product/tara/640x480/grunt-wd-c10-5l.png",
+                    "head": "Грунтовка глубокого проникновения С-10",
+                    "desc": "",
+                    "href": "template_scroll_color_2.html?name=grunt-vd-universalnyj-s-10"
+                }
+            ]
+        },
+        {
+            "section": [
+                {
+                    "img": "images/product/tara/640x480/grunt-wd-Profiline_primer.png",
+                    "head": "Грунтовка глубокого проникновения <br/> С-10 ProfiLine",
+                    "desc": "",
+                    "href": "template_scroll_color_2.html?name=grunt-vd-profiline-s-10"
+                },
+                {
+                    "img": "images/product/tara/640x480/grunt-wd-1-k-4.png",
+                    "head": "Грунтовка глубокого проникновения <br/> С-10 концентрат 1: 4",
+                    "desc": "",
+                    "href": "template_scroll_color_2.html?name=grunt-vd-concentrat-s-10"
+                }
+            ]
+        }
+    ]
+}

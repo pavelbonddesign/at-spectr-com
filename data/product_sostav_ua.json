@@ -1,0 +1,42 @@
+{
+    "title": {
+        "title": "Завод лакофарбової продукції «СПЕКТР»"
+    },
+    "poster": {
+        "img": ""
+    },
+    "article": {
+        "title": "Лакофарбовий завод",
+        "head": "«СПЕКТР»",
+        "text": [
+            "Дніпродзержинський лакофарбовий завод «СПЕКТР», заснований в 1936 році, є одним з провідних українських виробників лакофарбової продукції промислового призначення, архітектурно-будівельних і побутових фарб."
+           ,"В даний час продукція з логотипом «СПЕКТР» представлена у всіх регіонах України, а також у багатьох країнах ближнього і далекого зарубіжжя."
+        ]
+    },
+    "section": [
+        {
+            "img": "images/product/type/organika_frontpage.jpg",
+            "head": "Органічна продукція",
+            "desc": "",
+            "href": "template2.html?name=product-organic"
+        },
+        {
+            "img": "images/product/type/water_frontpage.jpg",
+            "head": "Водна продукція",
+            "desc": "",
+            "href": "template2.html?name=product-water"
+        }
+       ,{
+            "img": "images/product/type/koloranti.jpg",
+            "head": "Колоранти",
+            "desc": "",
+            "href": "koloranti.html"
+        }
+       ,{
+            "img": "images/product/type/inshe.jpg",
+            "head": "Інша продукція",
+            "desc": "",
+            "href": "template2.html?name=product-inshe"
+        }
+    ]
+}

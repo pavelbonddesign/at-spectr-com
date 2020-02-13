@@ -1,0 +1,22 @@
+{
+    "title": {
+        "title": "Краски для специальных назначений"
+    },
+    "poster": {
+        "img": ""
+    },
+    "article": {
+        "title": "Краски для специальных назначений",
+        "head": "",
+        "text": ["Для специальных работ рекомендуем использовать высококачественные материалы"
+        ]
+    },
+    "section": [
+        {
+            "img": "images/product/tara/640x480/dorozh_razmetka.png",
+            "head": "Краска для дорожной разметки",
+            "desc": "",
+            "href": "template_scroll_color_2.html?name=farba-dorozh-razmetka"
+        }
+    ]
+}

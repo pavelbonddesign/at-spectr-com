@@ -1,0 +1,28 @@
+{
+    "title": {
+        "title": "Продукція різного призначення"
+    },
+    "poster": {
+        "img": ""
+    },
+    "article": {
+        "title": "Продукція різного призначення",
+        "head": "",
+        "text": ["Високоякісна продукція різноманітного призначення, що задовольнить будь які потреби."
+        ]
+    },
+    "section": [
+        {
+            "img": "images/product/tara/640x480/skloomivach-leto.png",
+            "head": "Склоомивач літній",
+            "desc": "",
+            "href": "template_scroll_color_2.html?name=skloomivach-leto"
+        },
+        {
+            "img": "images/product/tara/640x480/rozchinnik-for-emal.png",
+            "head": "Розчинник для емалей",
+            "desc": "",
+            "href": "template_scroll_color_2.html?name=rozchinnik-for-emal"
+        }
+    ]
+}

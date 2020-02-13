@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>Завод лакофарбової продукції «СПЕКТР»</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta http-equiv="Cache-Control" content="no-cache">
+        <link rel="icon" type="image/png" href="images/logo.png">
+
+        <script src="js/jquery.min.js"></script>
+        <script src="js/jquery.cookie.js"></script>
+
+        <link href="css/bootstrap/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+        <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
+
+        <link href="css/style.css" rel="stylesheet" type="text/css"/>
+
+        <script>
+            $(document).ready(function () {
+                if ($.cookie('lang')==="ru") {
+                    $("#logo").load("logo_ru.inc");
+                    $("#footer").load("footer_ru.inc");
+                    document.title = "Завод лакокрасочной продукции «СПЕКТР»";
+                } else {
+                    $("#logo").load("logo_ua.inc");
+                    $("#footer").load("footer_ua.inc");
+                    document.title = "Завод лакофарбової продукції «СПЕКТР»";
+                }
+                $("#menu").load("menu.inc");
+            });
+        </script>
+
+        <style>
+            .carousel-wrapper img {
+                transition: transform 0.5s ease-in-out;
+            }
+            .carousel-wrapper img:hover {
+                transform: scale(1.1);
+                transition: transform 0.5s ease-in-out;
+            }
+            .product {
+                padding-top: 10px;
+            }
+        </style>
+
+    </head>
+
+    <body>
+        <div id="loader" class="loader"></div>
+        <div id="logo"></div>
+        <div id="menu"></div>
+
+        <div id="content">
+
+            <div class="poster-menu poster-menu-carousel">
+
+                <div id="carousel" class="carousel slide"
+                     data-ride="carousel" data-interval="3000" data-pause="hover" data-wrap="true" data-keyboard="false">
+                    <div class="carousel-inner carousel-wrapper" role="listbox">
+                    </div>
+                </div>
+            </div>
+
+            <div class="single-panel-text">
+                <p><b>ТДВ «ДЛФЗ «Спектр»</b> виробляє широкий асортимент  високоякісної лакофарбової
+                   органорозчинної та вододісперсійної продукції.</p>
+                <p>Нашу продукцію можливо використовувати для  нанесення на  металеві, дерев´яні, бетонні та інші поверхні.</p>
+                <p>Серед нашого широкого асортименту високоякісних матеріалів Ви знайдете оптимальне  рішення для 
+                    фарбування фасадів та інтер´єрів.</p>
+                
+                <p>Опис продукції <a href="product_surface.html">за призначенням</a> та 
+                    <a href="product_sostav.html">за типом</a>
+                </p>
+            </div>
+
+        </div>
+
+        <div id="footer"></div>
+
+
+        <script src="js/bootstrap/popper.min.js"></script>
+        <script src="js/bootstrap/bootstrap.min.js"></script>
+        <script>
+            $.getJSON({
+                url: "data/carousel.json",
+                success: function (data, status, jqXHR) {
+                    data.item.forEach(function (item, i, arr) {
+                        $("#carousel .carousel-inner").append(
+                            '<div class="item">'
+                            + '<a href="template_scroll_color_2.html?name=' + item.name + '"><img src="' + item.img + '" alt="" /></a>'
+                            + '</div>'
+                            );
+                    });
+                    $("#carousel .carousel-inner").find(".item").first().addClass("active");
+                }
+            });
+        </script>
+        
+        <script src="js/site.js"></script>
+
+    </body>
+
+</html>

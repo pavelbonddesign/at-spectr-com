@@ -1,0 +1,28 @@
+{
+    "title": {
+        "title": "Продукция различного назначения"
+    },
+    "poster": {
+        "img": ""
+    },
+    "article": {
+        "title": "Продукция различного назначения",
+        "head": "",
+        "text": ["Высококачественная продукция различного назначения, которая удовлетворит любые потребности."
+        ]
+    },
+    "section": [
+        {
+            "img": "images/product/tara/640x480/skloomivach-leto.png",
+            "head": "Стеклоомыватель летний",
+            "desc": "",
+            "href": "template_scroll_color_2.html?name=skloomivach-leto"
+        },
+        {
+            "img": "images/product/tara/640x480/rozchinnik-for-emal.png",
+            "head": "Растворитель для эмалей",
+            "desc": "",
+            "href": "template_scroll_color_2.html?name=rozchinnik-for-emal"
+        }
+    ]
+}
