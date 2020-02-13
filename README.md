@@ -1,1 +1,0 @@
-# at-spectr-com
